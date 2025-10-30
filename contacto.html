@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog de Victor Segura - Contacto</title>
 </head>
+
 <body>
-    <nav> 
+    <nav>
         <ul>
             <!--Crear barra de navegacion del sitio-->
             <li><a href="index.html">Inicio</a></li>
@@ -14,11 +16,70 @@
             <li><a href="hobbies.html">Hobbies</a></li>
             <li><a href="proyectos.html">Proyectos</a></li>
             <li><a href="#">Contactos</a></li>
-        </ul>   
-        </ul>   
+        </ul>
+        </ul>
     </nav>
     <main>
         <h1>Contacto</h1>
+
+        <section id="informacion-contacto">
+            <h2>Información de Contacto</h2>
+
+            <article>
+                <h3>Correo Electrónico</h3>
+                <p>
+                    <a href="mailto:vsegura@est.ups.edu.ec">vsegura@est.ups.edu.ec</a>
+                </p>
+            </article>
+
+            <article>
+                <h3>Redes Sociales</h3>
+                <ul>
+                    <li>
+                        <strong>WhatsApp:</strong>
+                        <a href="https://wa.me/593960145588" target="_blank">+593 96 014 5588</a>
+                    </li>
+                    <li>
+                        <strong>Instagram:</strong>
+                        <a href="https://www.instagram.com/vashitooooo?igsh=MzZidGlsMTV1ejNv&utm_source=qr" target="_blank">@vashitooooo</a>
+                    </li>
+                    <li>
+                        <strong>GitHub:</strong>
+                        <a href="https://github.com/l333x" target="_blank">github.com/l333x</a>
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="formulario-contacto">
+            <h2>Envíame un Mensaje</h2>
+            <form>
+                <p>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" required>
+                </p>
+
+                <p>
+                    <label for="email">Correo Electrónico:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="asunto">Asunto:</label><br>
+                    <input type="text" id="asunto" name="asunto" required>
+                </p>
+
+                <p>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Enviar Mensaje</button>
+                </p>
+            </form>
+        </section>
     </main>
 </body>
+
 </html>
