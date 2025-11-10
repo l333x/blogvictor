@@ -39,6 +39,7 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 1rem;
@@ -224,7 +225,7 @@ a:hover {
 /* Listas */
 ul, ol {
     margin: 1rem 0;
-    padding-left: 2rem;
+
 }
 
 li {
@@ -332,7 +333,7 @@ tr:last-child td {
 /* Responsive */
 @media (max-width: 768px) {
     nav ul {
-        gap: 1.5rem;
+        gap: 1rem;
     }
     
     nav a {
