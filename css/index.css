@@ -332,7 +332,7 @@ tr:last-child td {
 /* Responsive */
 @media (max-width: 768px) {
     nav ul {
-        gap: 1rem;
+        gap: 1.5rem;
     }
     
     nav a {
